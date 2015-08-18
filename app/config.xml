@@ -19,6 +19,7 @@
     <preference name="DisallowOverscroll" value="true"/>
     <preference name="Orientation" value="portrait" />
     <preference name="SplashScreenDelay" value="5000"/>
+    <preference name="AutoHideSplashScreen" value="false"/>
     <platform name="android">
         <allow-intent href="market:*" />
         <icon src="resources/icons/android/ldpi.png" density="ldpi" />

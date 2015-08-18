@@ -9,6 +9,7 @@ var app = {
 
 	onDeviceReady: function() {
 		$('#app').append('<div class="row"><div class="col-lg-12 text-center"><h2>Device is Ready!</h2></div></div>');
+		navigator.splashscreen.hide();
 	}
 }
 
